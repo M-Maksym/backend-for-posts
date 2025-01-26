@@ -5,7 +5,7 @@ import fileUpload from "express-fileupload";
 
 const PORT = 5000;
 const DB_URL =
-  "mongodb+srv://maksmeleshko12:ioyEU0w7VI0EjQ4l@cluster0.66wan.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://maksmeleshko12:<password>@cluster0.66wan.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const app = express();
 app.use(fileUpload({}));
